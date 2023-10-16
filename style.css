@@ -120,6 +120,7 @@ ul li span:hover{
     }
     input{
         padding: 4px;
+        width: 122px;
     } 
     button{
         padding: 4px 12px;
@@ -129,5 +130,14 @@ ul li span:hover{
         max-width: 470px;
         padding: 30px 20px 60px;
         border-radius: 10px;
+    }
+    .row{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #edeef0;
+        border-radius: 30px;
+        padding-left: 20px;
+        margin-bottom: 25px;
     }
 }
