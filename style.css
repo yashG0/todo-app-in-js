@@ -115,6 +115,18 @@ ul li span:hover{
 }
 
 @media screen and (max-width: 767px) {
+    ul li::before{
+        content: '';
+        position: absolute;
+        height: 18px;
+        width: 18px;
+        border-radius: 50%;
+        background-image: url('images/unchecked.png');
+        background-size: cover;
+        background-position: center;
+        top: 12px;
+        left: 8px;
+    }
     ul li{
         font-size: 14px;
     }
